@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Hero import db
+from Alexa import db
 
 authdb = db.adminauth
 
