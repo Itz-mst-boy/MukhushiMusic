@@ -9,7 +9,7 @@
 
 import random
 
-from Hero.Database import get_theme
+from Alexa.Database import get_theme
 
 themes = [
     "blue",
