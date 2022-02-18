@@ -35,7 +35,7 @@
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "@Asad_Music_Bot",
+      "value": "Asad_Music_Bot",
       "required": true
     },
     "SUPPORT_CHANNEL": {
@@ -105,7 +105,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/jankarikiduniya/TG-Music",
+      "value": "https://github.com/jankarikiduniya/AlexaMusicBot",
       "required": true
     },
     "UPSTREAM_BRANCH": {
