@@ -131,9 +131,10 @@
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-[ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
-[ʜᴀʀsʜɪᴛ](https://t.me/HarshitSharma361)
-[Abhimanyu](https://t.me/Itz_Venom_xD)
+- [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
+- [ʜᴀʀsʜɪᴛ](https://t.me/HarshitSharma361)
+- [Abhimanyu](https://t.me/Itz_Venom_xD)
+- [ʏᴜᴋᴋɪ](https://github.com/YukkiBot)
 
 </details>
 
@@ -141,8 +142,8 @@
 <summary><b>ʙʀᴏᴛʜᴇʀ</b></summary>
 <br>
 
-[ᴍᴜᴋᴜ](https://t.me/LEGEND_MUKUND)
-[ᴅᴇᴠɪʟ](https://t.me/its_devil_911)
+- [ᴍᴜᴋᴜ](https://t.me/LEGEND_MUKUND)
+- [ᴅᴇᴠɪʟ](https://t.me/its_devil_911)
 
 </details>
 
