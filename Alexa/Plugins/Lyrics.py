@@ -15,7 +15,7 @@ from youtubesearchpython import VideosSearch
 
 from Alexa import MUSIC_BOT_NAME, app
 
-__MODULE__ = "ʟʏʀɪᴄs 🎶"
+__MODULE__ = "✍️ ʟʏʀɪᴄs"
 __HELP__ = """
 
 /Lyrics [ᴍᴜsɪᴄ ɴᴀᴍᴇ]
@@ -23,6 +23,8 @@ __HELP__ = """
 
 **ɴᴏᴛᴇ**:
 ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴ ᴏғ ʟʏʀɪᴄs ʜᴀs sᴏᴍᴇ ʙᴜɢs. sᴇᴀʀᴄʜᴇs ᴏɴʟʏ 50% ʀᴇsᴜʟᴛs. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅ ɪɴsᴛᴇᴀᴅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʟʏʀɪᴄs ғᴏʀ ᴀɴʏ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 
 """
 

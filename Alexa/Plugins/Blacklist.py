@@ -12,7 +12,7 @@ from pyrogram.types import Message
 from Alexa import SUDOERS, app
 from Alexa.Database import blacklist_chat, blacklisted_chats, whitelist_chat
 
-__MODULE__ = "ʙʟᴀᴄᴋʟɪsᴛ 😔"
+__MODULE__ = "🤭 ʙʟᴀᴄᴋʟɪsᴛ"
 __HELP__ = """
 
 
@@ -30,6 +30,8 @@ __HELP__ = """
 
 `/whitelistchat` [ᴄʜᴀᴛ_ɪᴅ] 
 - ᴡʜɪᴛᴇʟɪsᴛ ᴀɴʏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴍᴜsɪᴄ ʙᴏᴛ
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport
 
 """
 

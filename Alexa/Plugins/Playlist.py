@@ -21,7 +21,7 @@ from Alexa.Inline import (add_genre_markup, check_genre_markup, check_markup,
                           others_markup, play_genre_playlist, playlist_markup,
                           third_playlist_markup)
 
-__MODULE__ = "ᴘʟᴀʏʟɪsᴛ 🎶"
+__MODULE__ = "⏯️ ᴘʟᴀʏʟɪsᴛ"
 __HELP__ = """
 
 
@@ -39,6 +39,8 @@ __HELP__ = """
 
 /delgroupplaylist
 - Delete any saved music in your group's playlist [Requires Admin Rights.]
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 """
 
 

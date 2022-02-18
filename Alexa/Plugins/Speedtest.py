@@ -8,11 +8,13 @@ from pyrogram.types import Message
 from Alexa import BOT_ID, SUDOERS, app
 from Alexa.Utilities.formatters import bytes
 
-__MODULE__ = "sᴘᴇᴇᴅᴛᴇsᴛ 🚅"
+__MODULE__ = "🚅 sᴘᴇᴇᴅᴛᴇsᴛ"
 __HELP__ = """
 
 `/speedtest`
 - ᴄʜᴇᴄᴋ sᴇʀᴠᴇʀ ʟᴀᴛᴇɴᴄʏ ᴀɴᴅ sᴘᴇᴇᴅ.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 
 """
 

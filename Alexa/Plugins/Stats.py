@@ -35,13 +35,15 @@ from Alexa.Inline import stats1, stats2, stats3, stats4, stats5, stats6, stats7
 from Alexa.Plugins import ALL_MODULES
 from Alexa.Utilities.ping import get_readable_time
 
-__MODULE__ = "sᴛᴀᴛs 📊"
+__MODULE__ = "📊 sᴛᴀᴛs"
 __HELP__ = """
 
 
 /stats
 - Check the Stats of Bot.
-- Gets the stat of MongoDb , Assistant, System etc
+- Gets the stat of MongoDb , Assistant, System etc.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 """
 
 

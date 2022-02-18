@@ -18,7 +18,7 @@ from Alexa import SUDOERS, app, random_assistant
 from Alexa.Database import get_assistant, save_assistant
 from Alexa.Utilities.assistant import get_assistant_details
 
-__MODULE__ = "ᴀssɪsᴛᴀɴᴛ 😔"
+__MODULE__ = "🤞 ᴀssɪsᴛᴀɴᴛ"
 __HELP__ = f"""
 
 
@@ -33,7 +33,8 @@ __HELP__ = f"""
 - ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴘʀᴇᴠɪᴏɪᴜs ᴀʟʟᴏᴛᴇᴅ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ɴᴇᴡ ᴏɴᴇ.
 
 `/setassistant` [ᴀss ɴᴜᴍʙᴇʀ ᴏʀ ʀᴀɴᴅᴏᴍ]
-- sᴇᴛ ᴀ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ғᴏʀ ᴄʜᴀᴛ. 
+- sᴇᴛ ᴀ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ғᴏʀ ᴄʜᴀᴛ.
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport
 """
 
 

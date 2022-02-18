@@ -14,13 +14,14 @@ from Alexa.Utilities.youtube import get_yt_info_query, get_yt_info_query_slider
 
 loop = asyncio.get_event_loop()
 
-__MODULE__ = "sᴏɴɢ 🎵"
+__MODULE__ = "🎵 sᴏɴɢ"
 __HELP__ = """
 
 
 /song [Youtube URL or Search Query] 
 - Download the particular query in audio or video format.
 
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 
 
 """

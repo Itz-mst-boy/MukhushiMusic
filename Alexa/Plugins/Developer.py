@@ -25,7 +25,7 @@ from Alexa.Utilities.tasks import add_task, rm_task
 
 # Eval and Sh module from WBB
 
-__MODULE__ = "ʙʀᴏᴀᴅᴄᴀsᴛ 🌏"
+__MODULE__ = "🪂 ʙʀᴏᴀᴅᴄᴀsᴛ"
 __HELP__ = """
 **ɴᴏᴛᴇ:**
 ᴏɴʟʏ ғᴏʀ sᴜᴅᴏ ᴜsᴇʀs.
@@ -41,6 +41,8 @@ __HELP__ = """
 
 `/broadcast_pin_loud` [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ]
 - ʙʀᴏᴀᴅᴄᴀsᴛ ᴀɴʏ ᴍᴇssᴀɢᴇ ᴛᴏ ʙᴏᴛ's sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴡɪᴛʜ ᴍᴇssᴀɢᴇ ɢᴇᴛᴛɪɴɢ ᴘɪɴɴᴇᴅ ɪɴ ᴄʜᴀᴛ [ᴇɴᴀʙʟᴇᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴs].
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport
 """
 
 

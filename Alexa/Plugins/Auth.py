@@ -17,7 +17,7 @@ from Alexa.Decorators.admins import AdminActual
 from Alexa.Utilities.changers import (alpha_to_int, int_to_alpha,
                                       time_to_seconds)
 
-__MODULE__ = "ᴀᴜᴛʜ ᴜsᴇʀs 😜"
+__MODULE__ = "😚 ᴀᴜᴛʜ ᴜsᴇʀs"
 __HELP__ = """
 
 **ɴᴏᴛᴇ:**
@@ -32,6 +32,8 @@ __HELP__ = """
 
 `/authusers` 
 - ᴄʜᴇᴄᴋ ᴀᴜᴛʜ ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport
 """
 
 
@@ -41,7 +43,7 @@ async def auth(_, message: Message):
     if not message.reply_to_message:
         if len(message.command) != 2:
             await message.reply_text(
-                "ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ ɪᴅ."
+                "**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ ɪᴅ.**"
             )
             return
         user = message.text.split(None, 1)[1]
@@ -58,7 +60,7 @@ async def auth(_, message: Message):
             count += 1
         if int(count) == 20:
             return await message.reply_text(
-                "ʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ ʜᴀᴠᴇ 20 ᴜsᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ (ᴀᴜʟ)"
+                "**ʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ ʜᴀᴠᴇ 20 ᴜsᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ** (ᴀᴜʟ)"
             )
         if token not in _check:
             assis = {

@@ -32,7 +32,7 @@ from Alexa.Utilities.paste import isPreviewUp, paste_queue
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
-__MODULE__ = "sᴇʀᴠᴇʀ"
+__MODULE__ = "🤺 sᴇʀᴠᴇʀ"
 __HELP__ = f"""
 
 **Note:**
@@ -58,6 +58,8 @@ __HELP__ = f"""
 
 /restart 
 - Restart Bot [All downloads, cache, raw files will be cleared too]. 
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 """
 
 

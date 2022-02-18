@@ -24,7 +24,7 @@ from Alexa.Database import (add_gban_user, add_off, add_on, add_sudo,
                             remove_gban_user, remove_served_chat, remove_sudo,
                             set_video_limit)
 
-__MODULE__ = "sᴜᴅᴏ ᴜsᴇʀs 🧯"
+__MODULE__ = "🆘 sᴜᴅᴏ"
 __HELP__ = """
 
 
@@ -50,6 +50,8 @@ Only for Sudo Users.
 
 /clean
 - Clean Temp Files and Logs.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 """
 # Add Sudo Users!
 

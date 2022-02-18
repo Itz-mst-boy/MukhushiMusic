@@ -34,7 +34,7 @@ from Alexa.Utilities.ping import get_readable_time
 
 welcome_group = 2
 
-__MODULE__ = "ᴇssᴇɴᴛɪᴀʟs 🥰"
+__MODULE__ = "🔘 ᴇssᴇɴᴛɪᴀʟs"
 __HELP__ = """
 
 
@@ -48,6 +48,8 @@ __HELP__ = """
 
 /settings 
 - Get Settings button.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 """
 
 
@@ -111,6 +113,44 @@ async def useradd(_, message: Message):
             reply_markup=InlineKeyboardMarkup(out[1]),
         ),
     )
+
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+# Without Credit (Mother Fucker)
+# Rocks © @Dr_Asad_Ali © Rocks
+# Copyright (C) 2021 By @Itz_VeNom_xD 
+# Copyright (C) 2021 By @Dr_Asad_Ali
+# Copyright (C) 2021 By @HarshitSharma361
+
+
+
+@Client.on_message(command("start") & filters.private & ~filters.edited)
+async def start_(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/4c7025b0b94c0d2b5f94a.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟᴇxᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴛᴏ ᴘʟᴀʏ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢ...
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
+┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀʟᴇxᴀ sᴇʀᴠᴇʀ](https://t.me/AsadSupport)
+┣★ sᴜᴘᴘᴏʀᴛ : [ᴀʟᴇxᴀ ᴄʜᴀᴛ](https://t.me/Alexa_Help)
+┣★ ʙʜᴀɪ › : [ᴍʏ ʙʀᴏ](https://t.me/HarshitSharma361)
+┗━━━━━━━━━━━━━━━━━┛
+
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali) ...
+━━━━━━━━━━━━━━━━━━━━━━━━**""",
+   reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "➕ ❰ ᴀᴅᴅ ᴀʟᴇxᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/Asad_Music_Bot?startgroup=true")
+                ]
+                
+           ]
+        ),
+    )
+
 
 
 @app.on_message(filters.command("settings") & filters.group)

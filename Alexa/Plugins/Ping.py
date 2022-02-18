@@ -16,10 +16,12 @@ from pyrogram.types import Message
 from Alexa import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
 from Alexa.Utilities.ping import get_readable_time
 
-__MODULE__ = "ᴘɪɴɢ"
+__MODULE__ = "🏓 ᴘɪɴɢ"
 __HELP__ = """
 
 `/ping` - ᴄʜᴇᴄᴋ ɪғ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport
 """
 
 

@@ -40,7 +40,7 @@ from Alexa.Utilities.youtube import get_m3u8, get_yt_info_id
 loop = asyncio.get_event_loop()
 
 
-__MODULE__ = "ᴠᴏɪᴄᴇ ᴄʜᴀᴛ 🔉"
+__MODULE__ = "🔉 ᴠᴏɪᴄᴇ ᴄʜᴀᴛ"
 __HELP__ = """
 
 
@@ -68,6 +68,8 @@ __HELP__ = """
 
 `/activevideo`
 - ᴄʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴏɴ ʙᴏᴛ.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport
 """
 
 
@@ -82,7 +84,7 @@ async def admins(_, message: Message):
     if not len(message.command) == 1:
         return await message.reply_text("ᴇʀʀᴏʀ ᴡʀᴏɴɢ ᴜsᴀɢᴇ ᴏғ ᴄᴏᴍᴍᴀɴᴅ...")
     if not await is_active_chat(message.chat.id):
-        return await message.reply_text("ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...")
+        return await message.reply_text("**ᴘᴇʜʟʏ ᴋᴜᴄʜ ᴄʜᴀʟᴀ ʟʏ ɪᴛᴛᴜ sʏ ɴᴏᴏʙ**...🤣")
     chat_id = message.chat.id
     if message.command[0][1] == "a":
         if not await is_music_playing(message.chat.id):
@@ -113,7 +115,7 @@ async def admins(_, message: Message):
         await remove_active_video_chat(chat_id)
         await stop_stream(chat_id)
         await message.reply_text(
-            f"🎧 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴇɴᴅᴇᴅ/sᴛᴏᴘᴘᴇᴅ ʙʏ {message.from_user.mention}..."
+            f"🎧 **ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴇɴᴅᴇᴅ/sᴛᴏᴘᴘᴇᴅ ʙʏ** {message.from_user.mention}..."
         )
     if message.command[0][1] == "k":
         if message.chat.id not in db_mem:
@@ -125,7 +127,7 @@ async def admins(_, message: Message):
             await remove_active_chat(chat_id)
             await remove_active_video_chat(chat_id)
             await message.reply_text(
-                "ɴᴏ ᴍᴏʀᴇ ᴍᴜsɪᴄ ɪɴ __ǫᴜᴇᴜᴇ__ \n\nʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ..."
+                "**ɴᴏ ᴍᴏʀᴇ ᴍᴜsɪᴄ ɪɴ ǫᴜᴇᴜᴇ**\n\n**ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**..."
             )
             await stop_stream(chat_id)
             return

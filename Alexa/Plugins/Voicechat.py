@@ -26,7 +26,7 @@ from Alexa.Utilities.assistant import get_assistant_details
 
 loop = asyncio.get_event_loop()
 
-__MODULE__ = "ɪɴᴠɪᴛᴇ 🦸"
+__MODULE__ = "🌺 ɪɴᴠɪᴛᴇ"
 __HELP__ = """
 
 **ɴᴏᴛᴇ:**
@@ -43,6 +43,8 @@ __HELP__ = """
 
 `/leavebot` [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ᴄʜᴀᴛ ɪᴅ]
 - ʙᴏᴛ ᴡɪʟʟ ʟᴇᴀᴠᴇ ᴛʜᴇ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ.
+
+- ᴘᴏᴡᴇʀᴅ ʙʏ 😍 ʀᴏᴄᴋs ᴀɴᴅ @AsadSupport.
 """
 
 @app.on_callback_query(filters.regex("gback_list_chose_stream"))
