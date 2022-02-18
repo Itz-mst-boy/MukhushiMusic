@@ -134,8 +134,9 @@ async def useradd(_, message: Message):
 ┣★ ᴄʀᴇᴀᴛᴏʀ › : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
 ┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀʟᴇxᴀ sᴇʀᴠᴇʀ](https://t.me/AsadSupport)
 ┣★ sᴜᴘᴘᴏʀᴛ › : [ᴀʟᴇxᴀ ᴄʜᴀᴛ](https://t.me/Alexa_Help)
-┣★ ʙʜᴀɪ     › : [ᴍʏ ʙʀᴏ](https://t.me/HarshitSharma361)
-┣★ ʜᴇʟᴘ     › : ɴᴇᴇᴅ ʜᴇʟᴘ + ᴄᴍᴅ ʀᴜɴ /help
+┣★ ʀᴏᴄᴋsᴏᴘ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/Shayri_Music_Lovers)
+┣★ ʙʀᴏᴛʜᴇʀ › : [ᴍʏ ʙʀᴏ](https://t.me/HarshitSharma361)
+┣★ ʜᴇʟᴘ › : ɴᴇᴇᴅ ʜᴇʟᴘ ʀᴜɴ /help
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
