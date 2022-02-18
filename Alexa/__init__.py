@@ -109,7 +109,7 @@ async def initiate_bot():
     os.system("clear")
     header = Table(show_header=True, header_style="bold yellow")
     header.add_column(
-        "\x59\x75\x6b\x6b\x69\x20\x4d\x75\x73\x69\x63\x20\x42\x6f\x74\x20\x3a\x20\x54\x68\x65\x20\x4d\x6f\x73\x74\x20\x41\x64\x76\x61\x6e\x63\x65\x64\x20\x4d\x75\x73\x69\x63\x20\x42\x6f\x74"
+        "\u0041\u006c\u0065\u0078\u0061\u0020\u004d\u0075\u0073\u0069\u0063\u0020\u0042\u006f\u0074\u0020\u003a\u0020\u0054\u0068\u0065\u0020\u004d\u006f\u0073\u0074\u0020\u0041\u0064\u0076\u0061\u006e\u0063\u0065\u0064\u0020\u004d\u0075\u0073\u0069\u0063\u0020\u0042\u006f\u0074"
     )
     console.print(header)
     with console.status(
