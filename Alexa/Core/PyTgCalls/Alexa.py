@@ -521,7 +521,7 @@ async def playout_end(pytgclients, chat_id):
                     chat_id,
                     photo=thumb,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"🎥<b>__sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:__</b> {title} \n👤<b>__ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:__ </b> {mention}",
+                    caption=f"🎥<b>**sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:**</b> [{title[:20]}] \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b> {mention}",
                 )
                 await start_timer(
                     videoid,
@@ -560,7 +560,7 @@ async def playout_end(pytgclients, chat_id):
                         photo="Utils/Telegram.JPEG",
                         reply_markup=InlineKeyboardMarkup(buttons),
                         caption=(
-                            f"**ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ**\n\n🎥<b>__sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:__ </b>ɴᴇxᴛ ᴠɪᴅᴇᴏ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ \n👤**__ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:__** {mention}"
+                            f"**ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ**\n\n🎥<b>sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:</b>ɴᴇxᴛ ᴠɪᴅᴇᴏ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ \n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {mention}"
                         ),
                     )
                 else:
@@ -610,7 +610,7 @@ async def playout_end(pytgclients, chat_id):
                         photo=thumb,
                         reply_markup=InlineKeyboardMarkup(buttons),
                         caption=(
-                            f"**ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ**\n\n🎥<b>__sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:__ </b>[{title[:25]}](https://www.youtube.com/watch?v={afk}) \n👤**__ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:__** {mention}"
+                            f"**ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ**\n\n🎥<b>sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={afk}) \n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {mention}"
                         ),
                     )
                     os.remove(thumb)
@@ -667,7 +667,7 @@ async def playout_end(pytgclients, chat_id):
                     photo=thumb,
                     reply_markup=InlineKeyboardMarkup(buttons),
                     caption=(
-                        f"🎥<b>__sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:__ </b>[{title[:25]}](https://www.youtube.com/watch?v={afk}) \n👤**__ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:__** {mention}"
+                        f"🎥<b>sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={afk}) \n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {mention}"
                     ),
                 )
                 os.remove(thumb)
