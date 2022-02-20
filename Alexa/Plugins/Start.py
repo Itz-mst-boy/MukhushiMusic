@@ -153,7 +153,36 @@ async def useradd(_, message: Message):
         ),
     )
 
+@app.on_message(filters.command(["alive", "reload", "alexa"]) & filters.private & ~filters.group & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/4c7025b0b94c0d2b5f94a.jpg",
+        caption=f"""""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/Shayri_Music_Lovers")
+                ]
+            ]
+        ),
+    )
 
+
+@app.on_message(filters.command(["repo", "source"]) & filters.private & ~filters.group & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/4c7025b0b94c0d2b5f94a.jpg",
+        caption=f"""""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/Dr_Asad_Ali")
+                ]
+            ]
+        ),
+    )
 
 @app.on_message(filters.command("settings") & filters.group)
 async def settings(_, message: Message):
