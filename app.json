@@ -105,7 +105,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/jankarikiduniya/AlexaMusicBot",
+      "value": "https://github.com/jankarikiduniya/AlexaMusic",
       "required": true
     },
     "UPSTREAM_BRANCH": {
