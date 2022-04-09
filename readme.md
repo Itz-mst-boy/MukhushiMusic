@@ -5,11 +5,11 @@
 <p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/849b9f8f22403fa1e2f17.jpg" width="400"></a></p>
 
 <p align="center">
-    <a href="https://app.codacy.com/manual/jankarikiduniya/AlexaMusicBot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot"> <img src="https://img.shields.io/github/repo-size/jankarikiduniya/AlexaMusicBot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot/commits/prince"> <img src="https://img.shields.io/github/last-commit/jankarikiduniya/AlexaMusicBot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot/issues"> <img src="https://img.shields.io/github/issues/jankarikiduniya/AlexaMusicBot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot/network/members"> <img src="https://img.shields.io/github/forks/jankarikiduniya/AlexaMusicBot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://app.codacy.com/manual/jankarikiduniya/AlexaMusic/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/jankarikiduniya/AlexaMusic"> <img src="https://img.shields.io/github/repo-size/jankarikiduniya/AlexaMusicBot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/jankarikiduniya/AlexaMusic/commits/prince"> <img src="https://img.shields.io/github/last-commit/jankarikiduniya/AlexaMusic?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/jankarikiduniya/AlexaMusic/issues"> <img src="https://img.shields.io/github/issues/jankarikiduniya/AlexaMusic?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/jankarikiduniya/AlexaMusic/network/members"> <img src="https://img.shields.io/github/forks/jankarikiduniya/AlexaMusic?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
@@ -117,7 +117,7 @@
 > ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ᴀʀᴇ ɴᴏᴛ ᴍᴀɴᴅᴀᴛᴏʀʏ, ʏᴏᴜ ᴄᴀɴ ʟᴇᴀᴠᴇ ᴛʜᴇᴍ ʙʟᴀɴᴋ ᴛᴏᴏ. 
     
 <h4> ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ʏᴜᴋᴋɪ ᴏɴ ʜᴇʀᴏᴋᴜ</h4>    
-<p><a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fjankarikiduniya%2FAlexaMusicBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
+<p><a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fjankarikiduniya%2FAlexaMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
     
 </details>
 
