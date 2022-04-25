@@ -21,3 +21,6 @@ yt-dlp==2021.11.10.1
 tgcrypto
 gitpython
 heroku3
+flask==2.1.1
+werkzeug==2.0.3
+pyrogram==1.4.12
