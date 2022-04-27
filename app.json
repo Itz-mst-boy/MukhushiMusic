@@ -1,7 +1,7 @@
 {
-  "name": "Alexa Music",
-  "description": "ᴀʟᴇxᴀ ɪs ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ғᴜɴᴄᴛɪᴏɴs ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
-  "logo": "https://telegra.ph/file/83a547c997953a4d75d87.jpg",
+  "name": "ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ",
+  "description": "ᴍᴜᴋʜᴜsʜᴊ ɪs ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ғᴜɴᴄᴛɪᴏɴs ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
+  "logo": "https://telegra.ph/file/3794971472562ae7c775b.jpg",
   "keywords": [
   "python3",
   "telegram"
@@ -40,17 +40,17 @@
     },
     "SUPPORT_CHANNEL": {
       "description": "Support Channel Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "AsadSupport",
+      "value": "mukhushi_official",
       "required": false
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "Shayri_Music_Lovers",
+      "value": "worldwide_friend_zone",
       "required": false
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-      "value": "1342820594",
+      "value": "5142140533",
       "required": true
     },
     "STRING_SESSION1": {
