@@ -35,7 +35,7 @@ async def bot_sys_stats():
 ᴄᴘᴜ: {cpu}%
 ʀᴀᴍ: {mem}%
 ᴅɪsᴋ: {disk}%
-ᴊᴏɪɴ: @Alexa.Help"""
+ᴊᴏɪɴ: @mr_sukkun.Help"""
     return stats
 
 
