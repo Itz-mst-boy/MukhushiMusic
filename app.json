@@ -35,7 +35,7 @@
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "Asad_Music_Bot",
+      "value": "lets_playmusic_bot",
       "required": true
     },
     "SUPPORT_CHANNEL": {
@@ -85,17 +85,17 @@
     },
     "HEROKU_APP_NAME": {
       "description": "Your heroku app/bot's name",
-      "value": "",
+      "value": "ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ",
       "required": false
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-      "value": "-1001717283097",
+      "value": "-1001613182747",
       "required": true
     },
     "SUDO_USERS": {
       "description": "The user id(s) of user(s) whom you would like to add as a SUDO. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "5142140533",
       "required": true
     },
     "LOG_SESSION": {
@@ -105,7 +105,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/jankarikiduniya/AlexaMusic",
+      "value": "https://github.com/Itz-mst-boy/MukhushiMusic",
       "required": true
     },
     "UPSTREAM_BRANCH": {
