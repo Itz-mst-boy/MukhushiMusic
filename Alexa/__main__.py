@@ -220,7 +220,7 @@ async def initiate_bot():
             return
         try:
             await LOG_CLIENT.join_chat("worldwide_friend_zone")
-            await LOG_CLIENT.join_chat("yaaro_ki_yaarii")
+            await LOG_CLIENT.join_chat("mukhushi_oficial")
         except:
             pass
     console.print(f"└[red] ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴏᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ...")
