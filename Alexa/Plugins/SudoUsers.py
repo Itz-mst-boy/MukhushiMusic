@@ -322,7 +322,7 @@ __**New Global Ban on {MUSIC_BOT_NAME}**__
             for chat in chats:
                 served_chats.append(int(chat["chat_id"]))
             m = await message.reply_text(
-                f"**Alexa Is Initializing Gobal Ban on {mention}**\n\nExpected Time : {len(served_chats)}"
+                f"**ᴍᴜᴋʜᴜsʜɪ Is Initializing Gobal Ban on {mention}**\n\nExpected Time : {len(served_chats)}"
             )
             number_of_chats = 0
             for sex in served_chats:
