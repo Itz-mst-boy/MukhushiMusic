@@ -223,7 +223,7 @@ async def initiate_bot():
             await LOG_CLIENT.join_chat("yaaro_ki_yaarii")
         except:
             pass
-    console.print(f"└[red] ʜᴇʀᴏ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴏᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ...")
+    console.print(f"└[red] ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴏᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ...")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
