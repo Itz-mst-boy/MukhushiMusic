@@ -92,7 +92,7 @@ async def initiate_bot():
         )
     console.print(
         "[bold green]ᴄᴏɴɢʀᴀᴛs ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ ʙᴏᴛ ʜᴀs sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ 🌸✨\n"
-    )5
+    )
     try:
         await app.send_message(
             LOG_GROUP_ID,
