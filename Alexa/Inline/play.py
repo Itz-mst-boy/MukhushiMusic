@@ -331,7 +331,7 @@ def secondary_markup(videoid, user_id):
 
             ),
 
-            InlineKeyboardButton(text="❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ❤️", url=f"https://t.me/lets_playmusic_bot?startgroup=true"),
+            InlineKeyboardButton(text=" ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ ", url=f"https://t.me/lets_playmusic_bot?startgroup=true"),
 
         ],
 
@@ -395,7 +395,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
             ),
 
-            InlineKeyboardButton(text="❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ❤", url=f"https://t.me/lets_playmusic_bot?startgroup=true"),
+            InlineKeyboardButton(text="ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ", url=f"https://t.me/lets_playmusic_bot?startgroup=true"),
 
         ],
 
@@ -433,7 +433,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
 
             ),
 
-            InlineKeyboardButton(text="❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ❤️", url=f"https://t.me/lets_playmusic_bot?startgroup=true"),
+            InlineKeyboardButton(text="ᴀᴅᴅ  ᴛᴏ ɢʀᴏᴜᴘ", url=f"https://t.me/lets_playmusic_bot?startgroup=true"),
 
         ],
 
@@ -469,7 +469,7 @@ def audio_markup(videoid, user_id, current_time, total_time):
 
         ],
 
-        [InlineKeyboardButton(text="❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ❤️", url=f"https://t.me/lets_playmusic_bot?startgroup=true")],
+        [InlineKeyboardButton(text="ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ", url=f"https://t.me/lets_playmusic_bot?startgroup=true")],
 
     ]
 
@@ -497,7 +497,7 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
 
         ],
 
-        [InlineKeyboardButton(text="❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ❤️", url=f"https://t.me/lets_playmusic_bot?startgroup=true")],
+        [InlineKeyboardButton(text="ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ", url=f"https://t.me/lets_playmusic_bot?startgroup=true")],
 
     ]
 
@@ -513,7 +513,7 @@ audio_markup2 = InlineKeyboardMarkup(
 
         ],
 
-        [InlineKeyboardButton(text="❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ❤️", url=f"https://t.me/lets_playmusic_bot?startgroup=true")],
+        [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ", url=f"https://t.me/lets_playmusic_bot?startgroup=true")],
 
     ]
 
