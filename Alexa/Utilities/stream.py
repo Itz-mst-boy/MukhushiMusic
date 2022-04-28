@@ -70,7 +70,7 @@ async def start_stream(
         final_output = await CallbackQuery.message.reply_photo(
             photo=thumb,
             caption=(
-                f"🎬<b>sᴏɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n⏳<b>ᴅᴜʀᴀᴛɪᴏɴ:</b> {duration_min} \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun/70)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b>{CallbackQuery.from_user.mention} \n⃣<b>ǫᴜᴇᴜᴇᴅ ᴀᴛ:</b> <b>#{position}</b>"
+                f"🎬<b>sᴏɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n⏳<b>ᴅᴜʀᴀᴛɪᴏɴ:</b> {duration_min} \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b>{CallbackQuery.from_user.mention} \n⃣<b>ǫᴜᴇᴜᴇᴅ ᴀᴛ:</b> <b>#{position}</b>"
             ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -94,7 +94,7 @@ async def start_stream(
             videoid, CallbackQuery.from_user.id, duration_min, duration_min
         )
         await mystic.delete()
-        cap = f"🎥<b>ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun/70)\n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {CallbackQuery.from_user.mention}"
+        cap = f"🎥<b>ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun)\n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {CallbackQuery.from_user.mention}"
         final_output = await CallbackQuery.message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
