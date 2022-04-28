@@ -158,7 +158,7 @@ async def custom_start_stream(
         final_output = await message.reply_photo(
             photo=thumb,
             caption=(
-                f"🎬<b>sᴏɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n⏳<b>ᴅᴜʀᴀᴛɪᴏɴ:</b> {duration_min} \n💡<b>ɪɴғᴏ:</b>[ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b>{message.from_user.mention} \n🚧<b>ǫᴜᴇᴜᴇᴅ ᴀᴛ:</b> <b>#{position}</b>"
+                f"🎬<b>sᴏɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n⏳<b>ᴅᴜʀᴀᴛɪᴏɴ:</b> {duration_min} \n💡<b>ɪɴғᴏ:</b>[ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun/70)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b>{message.from_user.mention} \n🚧<b>ǫᴜᴇᴜᴇᴅ ᴀᴛ:</b> <b>#{position}</b>"
             ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -181,7 +181,7 @@ async def custom_start_stream(
             videoid, message.from_user.id, duration_min, duration_min
         )
         await mystic.delete()
-        cap = f"🎥<b>ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)\n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention}"
+        cap = f"🎥<b>ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun/70)\n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention}"
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -310,7 +310,7 @@ async def custom_video_stream(
         final_output = await message.reply_photo(
             photo=thumb,
             caption=(
-                f"🎬<b>ᴠɪᴅᴇᴏ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n⏳<b>ᴅᴜʀᴀᴛɪᴏɴ:</b> {duration_min} \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b>{message.from_user.mention} \n🚧<b>ᴠɪᴅᴇᴏ ǫᴜᴇᴜᴇᴅ ᴀᴛ:</b> <b>#{position}!</b>"
+                f"🎬<b>ᴠɪᴅᴇᴏ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n⏳<b>ᴅᴜʀᴀᴛɪᴏɴ:</b> {duration_min} \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun/70)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b>{message.from_user.mention} \n🚧<b>ᴠɪᴅᴇᴏ ǫᴜᴇᴜᴇᴅ ᴀᴛ:</b> <b>#{position}!</b>"
             ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )        
@@ -337,7 +337,7 @@ async def custom_video_stream(
         buttons = primary_markup(
             videoid, message.from_user.id, duration_min, duration_min
         )
-        cap = f"**ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ**\n\n🎥<b>ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n💡<b>ɪɴғᴏ:</b>[ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)\n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention}"
+        cap = f"**ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ**\n\n🎥<b>ᴘʟᴀʏɪɴɢ:</b>[{title[:20]}](https://www.youtube.com/watch?v={videoid}) \n💡<b>ɪɴғᴏ:</b>[ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun/70)\n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention}"
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
