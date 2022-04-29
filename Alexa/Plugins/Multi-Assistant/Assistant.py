@@ -62,7 +62,7 @@ async def awaiting_message(client, message):
         )
         return await client.block_user(user_id)
     await message.reply_text(
-        f"Hello, I am {MUSIC_BOT_NAME}'s Assistant.\n\nPlease dont spam here , else you'll get blocked.\nFor more Help start :- @{BOT_USERNAME} join @Alexa_Help For Details"
+        f"Hello, I am {MUSIC_BOT_NAME}'s Assistant.\n\nPlease dont spam here , else you'll get blocked.\nFor more Help start :- @{BOT_USERNAME} join @worldwide_friend_zone For Details"
     )
 
 
