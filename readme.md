@@ -1,13 +1,3 @@
-<h1 align="center"><b>❤️ ALEXA MUSIC BOT ❤️</b></h1>
-
-<h4 align="center">Alexa A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
-
-
-> ⭐️ Thanks to everyone for using Alexa, That is the greatest pleasure we have !
-
-### A– History
-
-<a href="https://www.youtube.com/JankariKiDuniya"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
 
 ## Features ❤️”®
 
@@ -111,6 +101,4 @@
     
 </details>
 
-
-# Owner And Credit
 
