@@ -138,7 +138,7 @@ async def userdel(_, message: Message):
 @app.on_message(filters.command("sudolist"))
 async def sudoers_list(_, message: Message):
     sudoers = await get_sudoers()
-    text = "⭐️<u> **Owners:**</u>\n"
+    text = "⭐️<u> **ᴏᴡɴᴇʀs:**</u>\n"
     sex = 0
     for x in OWNER_ID:
         try:
@@ -271,7 +271,7 @@ async def ban_globally(_, message):
             for chat in chats:
                 served_chats.append(int(chat["chat_id"]))
             m = await message.reply_text(
-                f"**Alexa Is Initializing Global Ban on {user.mention}**\n\nExpected Time : {len(served_chats)}"
+                f"**ᴍᴜᴋʜᴜsʜɪ ɪs ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {user.mention}**\n\nᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ: {len(served_chats)}"
             )
             number_of_chats = 0
             for sex in served_chats:
@@ -284,13 +284,13 @@ async def ban_globally(_, message):
                 except Exception:
                     pass
             ban_text = f"""
-__**New Global Ban on {MUSIC_BOT_NAME}**__
+__**ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {MUSIC_BOT_NAME}**__
 
-**Origin:** {message.chat.title} [`{message.chat.id}`]
-**Sudo User:** {from_user.mention}
-**Banned User:** {user.mention}
-**Banned User ID:** `{user.id}`
-**Chats:** {number_of_chats}"""
+**ᴏʀɪɢɪɴ:** {message.chat.title} [`{message.chat.id}`]
+**sᴜᴅᴏ ᴜsᴇʀ:** {from_user.mention}
+**ʙᴀɴɴᴇᴅ ᴜsᴇʀ:** {user.mention}
+**ʙᴀɴɴᴇᴅ ᴜsᴇʀ ɪᴅ:** `{user.id}`
+**ᴄʜᴀᴛs:** {number_of_chats}"""
             try:
                 await m.delete()
             except Exception:
@@ -314,7 +314,7 @@ __**New Global Ban on {MUSIC_BOT_NAME}**__
     else:
         is_gbanned = await is_gbanned_user(user_id)
         if is_gbanned:
-            await message.reply_text("Already Gbanned.")
+            await message.reply_text("ᴀʟʀᴇᴀᴅʏ ɢʙᴀɴɴᴇᴅ.")
         else:
             await add_gban_user(user_id)
             served_chats = []
@@ -322,7 +322,7 @@ __**New Global Ban on {MUSIC_BOT_NAME}**__
             for chat in chats:
                 served_chats.append(int(chat["chat_id"]))
             m = await message.reply_text(
-                f"**ᴍᴜᴋʜᴜsʜɪ Is Initializing Gobal Ban on {mention}**\n\nExpected Time : {len(served_chats)}"
+                f"**ᴍᴜᴋʜᴜsʜɪ ɪs ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ɢᴏʙᴀʟ ʙᴀɴ ᴏɴ {mention}**\n\nᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ : {len(served_chats)}"
             )
             number_of_chats = 0
             for sex in served_chats:
@@ -335,13 +335,13 @@ __**New Global Ban on {MUSIC_BOT_NAME}**__
                 except Exception:
                     pass
             ban_text = f"""
-__**New Global Ban on {MUSIC_BOT_NAME}**__
+__**ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {MUSIC_BOT_NAME}**__
 
-**Origin:** {message.chat.title} [`{message.chat.id}`]
-**Sudo User:** {from_user_mention}
-**Banned User:** {mention}
-**Banned User ID:** `{user_id}`
-**Chats:** {number_of_chats}"""
+**ᴏʀɪɢɪɴ:** {message.chat.title} [`{message.chat.id}`]
+**sᴜᴅᴏ ᴜsᴇʀ:** {from_user_mention}
+**ʙᴀɴɴᴇᴅ ᴜsᴇʀ:** {mention}
+**ʙᴀɴɴᴇᴅ ᴜsᴇʀ ɪᴅ:** `{user_id}`
+**ᴄʜᴀᴛs:** {number_of_chats}"""
             try:
                 await m.delete()
             except Exception:
@@ -431,7 +431,7 @@ async def broadcast_message_pin_silent(_, message):
             except Exception:
                 pass
         await message.reply_text(
-            f"**Broadcasted Message In {sent}  Chats with {pin} Pins.**"
+            f"**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ {sent}  ᴄʜᴀᴛs ᴡɪᴛʜ {pin} ᴘɪɴs.**"
         )
         return
     if len(message.command) < 2:
@@ -459,7 +459,7 @@ async def broadcast_message_pin_silent(_, message):
         except Exception:
             pass
     await message.reply_text(
-        f"**Broadcasted Message In {sent} Chats and {pin} Pins.**"
+        f"**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ {sent} ᴄʜᴀᴛs ᴀɴᴅ {pin} ᴘɪɴs.**"
     )
 
 
@@ -489,7 +489,7 @@ async def broadcast_message_pin_loud(_, message):
             except Exception:
                 pass
         await message.reply_text(
-            f"**Broadcasted Message In {sent}  Chats with {pin} Pins.**"
+            f"**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ {sent}  ᴄʜᴀᴛs ᴡɪᴛʜ {pin} ᴘɪɴs.**"
         )
         return
     if len(message.command) < 2:
@@ -517,7 +517,7 @@ async def broadcast_message_pin_loud(_, message):
         except Exception:
             pass
     await message.reply_text(
-        f"**Broadcasted Message In {sent} Chats and {pin} Pins.**"
+        f"**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ {sent} ᴄʜᴀᴛs ᴀɴᴅ {pin} ᴘɪɴs.**"
     )
 
 
@@ -540,7 +540,7 @@ async def broadcast(_, message):
                 sent += 1
             except Exception:
                 pass
-        await message.reply_text(f"**Broadcasted Message In {sent} Chats.**")
+        await message.reply_text(f"**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ {sent} ᴄʜᴀᴛs.**")
         return
     if len(message.command) < 2:
         await message.reply_text(
@@ -560,7 +560,7 @@ async def broadcast(_, message):
             sent += 1
         except Exception:
             pass
-    await message.reply_text(f"**Broadcasted Message In {sent} Chats.**")
+    await message.reply_text(f"**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ In {sent} ᴄʜᴀᴛs.**")
 
 
 # Clean
@@ -574,4 +574,4 @@ async def clean(_, message):
     shutil.rmtree(dir1)
     os.mkdir(dir)
     os.mkdir(dir1)
-    await message.reply_text("Successfully cleaned all **temp** dir(s)!")
+    await message.reply_text("sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʟᴇᴀɴᴇᴅ ᴀʟʟ **temp** dir(s)!")
