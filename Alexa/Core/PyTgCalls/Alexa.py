@@ -521,7 +521,7 @@ async def playout_end(pytgclients, chat_id):
                     chat_id,
                     photo=thumb,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"🎥<b>**sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:**</b> [{title[:20]}] \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b> {mention}",
+                    caption=f"🎥<b>**sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:**</b> [{title[:20]}] \n💡<b>ɪɴғᴏ:</b> [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/mr_sukkun/70)\n👤<b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:</b> {mention}",
                 )
                 await start_timer(
                     videoid,
