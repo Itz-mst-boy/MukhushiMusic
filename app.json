@@ -105,7 +105,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/Itz-mst-boy/Mk",
+      "value": "https://github.com/Itz-mst-boy/Mukhushi-Vc",
       "required": true
     },
     "UPSTREAM_BRANCH": {
