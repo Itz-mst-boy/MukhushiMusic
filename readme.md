@@ -37,16 +37,16 @@ Thumbnail Support
 
 [![ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/Mukhushi-VC)
 
-# ᴛᴇsᴛ ʙᴏᴛ 
+# sᴛʀɪɴɢ ʙᴏᴛ
 [sᴛʀɪɴɢ   sᴇssɪᴏɴ ʙᴏᴛ](https://t.me/itz_string_session_bot)
 
 
 
-#ᴄʀᴇᴅɪᴛ
+# ᴄʀᴇᴅɪᴛ
 
 [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
 
-[](https://t.me/)
+[ᴊᴀɴᴋᴀʀɪ ᴅᴜɴɪʏᴀ](https://t.me/Dr_Asad_Ali)
 
 #  sᴜᴘᴘᴏʀᴛ ɴᴅ ᴜᴘᴅᴀᴛᴇs
 
