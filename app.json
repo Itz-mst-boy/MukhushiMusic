@@ -35,7 +35,7 @@
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "lets_playmusic_bot",
+      "value": "@lets_playmusic_bot",
       "required": true
     },
     "SUPPORT_CHANNEL": {
