@@ -35,7 +35,7 @@ Thumbnail Support
 # 🚀 ʜᴇʀᴏᴋᴜ  ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 
-[![ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/Mukhushi-VC)
+[![ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/MukhushiMusic)
 
 # sᴛʀɪɴɢ ʙᴏᴛ
 [sᴛʀɪɴɢ   sᴇssɪᴏɴ ʙᴏᴛ](https://t.me/itz_string_session_bot)
