@@ -105,12 +105,12 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/Itz-mst-boy/Mukhushi-Vc",
+      "value": "https://github.com/Itz-mst-boy/MukhushiMusic",
       "required": true
     },
     "UPSTREAM_BRANCH": {
       "description": "Repo's Branch Name",
-      "value": "main",
+      "value": "MukhushiMusic",
       "required": true
     }
   },
