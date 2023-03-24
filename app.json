@@ -6,6 +6,24 @@
   "python3",
   "telegram"
   ],
+
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
   "stack": "container",
   "env": {
     "API_ID": {
